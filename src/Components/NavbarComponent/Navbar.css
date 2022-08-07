@@ -1,0 +1,52 @@
+.n-wrapper {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.n-left {
+    flex: 1;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+}
+
+.n-name {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.n-right {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    font-weight: 80;
+}
+
+.n-list {
+    flex: 10;
+}
+
+a {
+    text-decoration: none;
+}
+
+.n-list>ul {
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+    cursor: pointer;
+}
+
+.n-list>ul>li {
+    list-style: none;
+}
+
+.n-list>ul>li>a:hover {
+    cursor: pointer;
+    color: var(--blueCard)
+}
+
+.n-button {
+    flex: 2;
+}
