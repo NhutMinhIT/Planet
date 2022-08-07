@@ -1,0 +1,59 @@
+.home {
+    display: flex;
+    height: 120vh;
+    margin-top: 6rem;
+}
+
+.h-left {
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.h-title {
+    flex-direction: column;
+    display: flex;
+}
+
+.h-title>:nth-child(1) {
+    color: var(--green);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.h-title>:nth-child(2) {
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.h-right {
+    flex: 1;
+    position: relative;
+    left: -10%;
+}
+
+.h-right>* {
+    position: absolute;
+    z-index: 1;
+}
+
+.h-right>:nth-child(1) {
+    transform: scale(0.6);
+    left: -20%;
+    top: 25%;
+}
+
+.h-right>:nth-child(2) {
+    transform: scale(0.6);
+    left: -6rem;
+    top: 25%;
+}
+
+.h-right>:nth-child(3) {
+    left: -26%;
+    transform: scale(0.89);
+    top: 25%;
+}
