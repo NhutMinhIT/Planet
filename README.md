@@ -1,7 +1,7 @@
 ### Home Page 
 
-![image](https://user-images.githubusercontent.com/90835621/183954101-57a8e315-e389-4e8a-aa4c-bd03666fea00.png)
 ![image](https://user-images.githubusercontent.com/90835621/183953949-97a710fb-e7fe-4ee9-aeb3-9dd90cb47b6d.png)
+![image](https://user-images.githubusercontent.com/90835621/183954101-57a8e315-e389-4e8a-aa4c-bd03666fea00.png)
 
 ### About Page 
 
