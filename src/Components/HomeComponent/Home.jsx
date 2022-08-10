@@ -4,6 +4,8 @@ import './Home.css';
 import Icon3 from '../../img/icon3.png';
 import Blue from '../../img/Blue.png';
 import Green from '../../img/green.png';
+import Blur from '../BlurComponent/Blur';
+
 
 const Home = () => {
     const transiton = { dura: 2, type: 'spring' }
@@ -29,6 +31,7 @@ const Home = () => {
                         The interactions between living things create a common habitat among species.
                     </span>
                 </div>
+                <Blur />
                 <div className="h-title">
                     <span>Elements of the natural environment</span>
                     <span>
@@ -48,12 +51,14 @@ const Home = () => {
                     </span>
                 </div>
             </div>
+
             <div className='h-right'>
                 <img src={Blue} alt="" />
                 <img src={Green} alt="" />
                 <img src={Icon3} alt="" />
 
             </div>
+
 
 
         </div>

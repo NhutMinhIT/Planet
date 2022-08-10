@@ -53,7 +53,7 @@
 }
 
 .h-right>:nth-child(3) {
-    left: -26%;
-    transform: scale(0.89);
-    top: 25%;
+    left: -24%;
+    transform: scale(0.80);
+    top: 22%;
 }
