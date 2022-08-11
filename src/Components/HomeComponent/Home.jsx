@@ -30,8 +30,9 @@ const Home = () => {
                         all living and non-living organisms that occur naturally on Earth.
                         The interactions between living things create a common habitat among species.
                     </span>
+                    <Blur />
                 </div>
-                <Blur />
+
                 <div className="h-title">
                     <span>Elements of the natural environment</span>
                     <span>
@@ -56,7 +57,6 @@ const Home = () => {
                 <img src={Blue} alt="" />
                 <img src={Green} alt="" />
                 <img src={Icon3} alt="" />
-
             </div>
 
 

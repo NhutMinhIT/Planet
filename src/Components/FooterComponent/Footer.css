@@ -1,0 +1,17 @@
+.footer {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: -9rem;
+    margin-bottom: -2rem;
+}
+
+.f-content {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 4rem;
+}

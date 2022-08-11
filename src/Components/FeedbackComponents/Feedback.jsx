@@ -25,10 +25,9 @@ const Contact = () => {
         <div className="contact-form">
             <div className="w-left">
                 <div className="awesome">
-                    <span>Get in touch</span>
-                    <span>Contact Me</span>
+                    <span style={{ fontWeight: 'bold' }}>Contact Me</span>
                     <div className="blur s-blur1"
-                        style={{ background: '#ABF1FF94' }}
+                        style={{ background: '#cbf075' }}
                     >
                     </div>
                 </div>
@@ -41,7 +40,7 @@ const Contact = () => {
                     <input type="submit" value='Send' className='button' />
                     <span>{done && "Thank You Very Much!!"}</span>
                     <div className="blur c-blur1"
-                        style={{ background: 'var(--purple)' }}>
+                        style={{ background: 'var(--green)' }}>
                     </div>
                 </form>
             </div>
