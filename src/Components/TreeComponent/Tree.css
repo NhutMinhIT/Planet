@@ -1,0 +1,59 @@
+.tree {
+    display: flex;
+    height: 140vh;
+    margin-top: 4rem;
+}
+
+.t-left {
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.title-left {
+    flex-direction: column;
+    display: flex;
+}
+
+.title-left>:nth-child(1) {
+    color: var(--green);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.title-left>:nth-child(2) {
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.t-right {
+    flex: 1;
+    position: relative;
+    left: -10%;
+}
+
+.t-right>* {
+    position: absolute;
+    z-index: 1;
+}
+
+.t-right>:nth-child(1) {
+    transform: scale(0.6);
+    left: -25%;
+    top: 28%;
+}
+
+.t-right>:nth-child(2) {
+    transform: scale(0.6);
+    left: -8rem;
+    top: 30%;
+}
+
+.t-right>:nth-child(3) {
+    left: -20%;
+    transform: scale(0.9);
+    top: 14%;
+}

@@ -8,7 +8,7 @@ import Blur from '../BlurComponent/Blur';
 
 
 const Home = () => {
-    const transiton = { dura: 2, type: 'spring' }
+
 
     return (
         <div className="home">
