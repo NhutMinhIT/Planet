@@ -3,6 +3,7 @@ import Navbar from './Components/NavbarComponent/Navbar';
 import Banner from './Components/BannerComponent/Banner';
 import HomePage from './Components/HomeComponent/Home';
 import TreePage from './Components/TreeComponent/Tree'
+import BanefitPage from './Components/BenefitComponent/Benefit'
 import AboutPage from './Components/AboutComponent/About';
 import FeedbackPage from './Components/FeedbackComponents/Feedback';
 import TravelPage from './Components/TravelComponent/Travel';
@@ -19,6 +20,7 @@ function App() {
         <Route exact path="/" element={<HomePage />} />
         <Route exact path="/home" element={<HomePage />} />
         <Route path='/tree' element={<TreePage />} />
+        <Route path='/benefit' element={<BanefitPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/travel" element={<TravelPage />} />
         <Route path="/feedback" element={<FeedbackPage />} />

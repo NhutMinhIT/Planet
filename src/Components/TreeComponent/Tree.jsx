@@ -33,6 +33,7 @@ const Tree = () => {
                         <div className="title-left" key={index}>
                             <span>{tree.name}</span>
                             <span>{tree.decription}</span>
+                            <Blur />
                         </div>
                     );
                 })}
