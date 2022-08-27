@@ -1,0 +1,59 @@
+.benefit {
+    display: flex;
+    height: 140vh;
+    margin-top: 6rem;
+}
+
+.b-left {
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.b-idea {
+    flex-direction: column;
+    display: flex;
+}
+
+.b-idea>:nth-child(1) {
+    color: var(--green);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.b-idea>:nth-child(2) {
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.b-right>* {
+    position: absolute;
+    z-index: 1;
+}
+
+.b-right {
+    flex: 1;
+    position: relative;
+    left: -10%;
+}
+
+.b-right>:nth-child(1) {
+    transform: scale(0.6);
+    left: -20%;
+    top: 25%;
+}
+
+.b-right>:nth-child(2) {
+    transform: scale(0.6);
+    left: -6rem;
+    top: 25%;
+}
+
+.b-right>:nth-child(3) {
+    transform: scale(0.8);
+    left: -24%;
+    top: 6%;
+}
